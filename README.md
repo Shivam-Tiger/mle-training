@@ -9,25 +9,21 @@ The following techniques have been used:
  - Decision Tree
  - Random Forest
 
-## Steps performed
+### Steps performed
  - We prepare and clean the data. We check and impute for missing values.
  - Features are generated and the variables are checked for correlation.
  - Multiple sampling techinuqies are evaluated. The data set is split into train and test.
  - All the above said modelling techniques are tried and evaluated. The final metric used to evaluate is mean squared error.
 
-## To excute the script
-python < scriptname.py >
-
-# Command to create environment from env.yml 
+## Command to create environment from env.yml 
 
 - conda env create -f environment.yml
 
 The first line of the yml file sets the new environment's name.
 
-Activate the new environment: conda activate myenv
 
-# Activating the Environment we just generated from yml file
+## Activating the Environment we just generated from yml file
 - conda activate myenv 
 
-# Command to run Python script
+## Command to run Python script
 - python3 < scriptname.py >
